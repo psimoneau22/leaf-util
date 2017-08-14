@@ -1,0 +1,26 @@
+{
+  "name": "any-leaf",
+  "version": "1.0.0",
+  "description": "provides utility methods for traversing a JSON object and performing checks or returning values from leaf nodes",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "keywords": [
+    "JSON",
+    "object",
+    "traverse",
+    "check",
+    "predicate",
+    "map",
+    "tree",
+    "node"
+  ],
+  "author": "Philip Simoneau",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "immutability-helper": "^2.3.1",
+    "mocha": "^3.5.0"
+  }
+}

@@ -12,7 +12,7 @@ import { getLeaves } from "any-leaf";
 const test = {
     a: {
         i: {
-            p: [ 'value1', { test: 'value2'}]
+            p: [ 'value1', { test: 'value2'}],
             q: {
                 x: 12,
                 y: null

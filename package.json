@@ -1,11 +1,12 @@
 {
   "name": "any-leaf",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "provides utility methods for traversing a JSON object and performing checks or returning values from leaf nodes",
   "main": "index.js",
   "scripts": {
     "test": "mocha test/**/*.js"
   },
+  "repository": "https://github.com/psimoneau22/leaf-util.git",
   "keywords": [
     "JSON",
     "object",

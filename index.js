@@ -31,7 +31,7 @@ function allLeaves(value, check, include, exclude) {
 }
 
 function getLeaves(value, include, exclude) {
-    return mapLeaves(value, val => val, include, exclude)
+    return mapLeaves(value, leaf => leaf, include, exclude)
 }
 
 function mapLeaves(value, mapFn, include, exclude){

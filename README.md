@@ -62,22 +62,29 @@ console.log(JSON.stringify())
 
 ```
 
+
 ## API:
+    In addition to the documenation below, each method takes in an optional include ([string]) and exclude ([string]) parameter used to include or exclude subtree sections of the subject object. 
+
+
+```javascript
+const include = [ 'a.i.p', 'b'] // same for exclude, will exclude all nodes under the listed paths
+```
 
 ### anyLeaf(value: object, fn: function): boolean
     performs the check defined by fn on all leaf nodes and returns true if any leaf node passes the check (similar to Array.prototype.some).  The fn callback will be called with each value in the format: { path: string, value: any }
 
 ```javascript
-    anyLeaf(test, leaf => leaf.value === 'value1') // true
-    anyLeaf(test, leaf => leaf.value === 'someValNotALeaf') // false
+anyLeaf(test, leaf => leaf.value === 'value1') // true
+anyLeaf(test, leaf => leaf.value === 'someValNotALeaf') // false
 ```
 
 ### allLeaves(value: object, fn: function): boolean
     same as anyLeaf except all leaves must pass the check defined by the callback fn
 
 ```javascript
-    allLeaves(test, leaf => leaf.value === 'value1') // false
-    allLeaves(test, leaf => leaf.value !== undefined) // true
+allLeaves(test, leaf => leaf.value === 'value1') // false
+allLeaves(test, leaf => leaf.value !== undefined) // true
 ```
 
 ### anyLeafTruthy(value: object): boolean

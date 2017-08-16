@@ -68,7 +68,7 @@ console.log(JSON.stringify())
 
 
 ```javascript
-const include = [ 'a.i.p', 'b'] // same for exclude, will exclude all nodes under the listed paths
+const include = [ 'a.i.p', 'b'] // same for include/exclude, will exclude all nodes under the listed paths
 ```
 
 ### anyLeaf(value: object, fn: function): boolean

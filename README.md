@@ -2,7 +2,7 @@
 any-leaf provides utility methods for traversing a JSON object and performing checks or returning values from leaf nodes.  This library has not dependencies
 
 ## Installation:
-    npm install --save redux-form
+    npm install --save rany-leaf
 
 ## Usage:
 

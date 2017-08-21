@@ -116,7 +116,7 @@ allLeavesFalsey(test) // false
 ```
 
 ### getLeaves(value: object): [{path: string, value: any}]
-same as getLeaves with a callback fn specified as leaf => leaf
+same as mapLeaves with a callback fn specified as leaf => leaf
 
 ```javascript
 getLeaves(test) // false

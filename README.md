@@ -64,7 +64,7 @@ console.log(JSON.stringify())
 
 
 ## API:
-    In addition to the documenation below, each method takes in an optional include ([string]) and exclude ([string]) parameter used to include or exclude subtree sections of the subject object. 
+In addition to the documenation below, each method takes in an optional include ([string]) and exclude ([string]) parameter used to include or exclude subtree sections of the subject object. 
 
 
 ```javascript

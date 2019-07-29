@@ -1,5 +1,5 @@
 # any-leaf 
-any-leaf provides utility methods for traversing a JSON object and performing checks or returning values from leaf nodes.  This library has not dependencies
+any-leaf provides utility methods for traversing a JSON object and performing checks or returning values from leaf nodes.  This library has no dependencies
 
 ## Installation:
     npm install --save any-leaf
